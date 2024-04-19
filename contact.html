@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: #55ffe5;
+        font-size: 14px;
+    }
+
+    .container {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .contact-box {
+        background: #fff;
+        display: flex;
+    }
+
+     .contact-left { 
+        flex-basis: 60%;
+        padding: 40px 60px;
+        color: white;
+    }
+
+    .contact-right {
+        flex-basis: 40%;
+        padding: 40px;
+        background-color: #1c00b5;
+        color: white;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    .container p {
+        margin-bottom: 40px;
+    }
+
+    .input-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .input-row .input-group {
+        flex-basis: 45%;
+    }
+
+    input {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        padding-bottom: 5px;
+    }
+
+    textarea {
+        width: 100%;
+        border: 1px solid #ccc;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    label {
+        margin-bottom: 6px;
+        display: block;
+        color: #1c00b5
+    }
+
+    button {
+        background-color: black;
+        width: 100px;
+        height: 30px;
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    .contact-left h3{
+        color: #1c00b5;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .contact-right h3{
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    tr td:first-child{
+        padding-right: 20px;
+
+    }
+    tr td{
+        padding-top: 20px;
+    } 
+   
+</style>
+
+<body>
+    <div class="container">
+        <h1>Connect Whit Us</h1>
+        <p>We would love to respond to your queries and help you succeed.<br> Feel free to get in touch whit us.</p>
+        <div class="contact-box">
+            <div class="contact-left">
+                <h3><b>Send your request</b></h3>
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="write name...">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="write no...">
+                        </div>
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="write email...">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="write sub..">
+                        </div>
+                    </div>
+                    <label>Massage</label>
+                    <textarea rows="5" placeholder="massage..."></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+            <div class="contact-right">
+                <div><b>Reach Us</b></div>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>tejasjori1552@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>9112363150</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>kotharud pune <br> maharashtra 4000</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
